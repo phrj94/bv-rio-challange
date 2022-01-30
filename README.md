@@ -1,7 +1,7 @@
 # bvrio-challange
 
 ## Descrição do Projeto
-<p align="center">Este é um pequeno projeto em <strong>Vue</strong>, que acessa a api <span> <a href='https://openweathermap.org/'>openweathermap.org</a></span> para pegar dados meteorlógicos de acordo com a cidade digitada pelo usuário.</p>
+<p align="center">Este é um pequeno projeto em <strong>Vue</strong>, que acessa a api <span> <a href='https://openweathermap.org/'>openweathermap.org</a></span> para pegar dados meteorológicos de acordo com a cidade digitada pelo usuário.</p>
 
 ## Antes de usar
 * <p>Para utilizar esta aplicação é necessário gerar uma AppId no site da openweathermap.org</p>
