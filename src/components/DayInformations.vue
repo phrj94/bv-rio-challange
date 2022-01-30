@@ -89,7 +89,7 @@ export default {
     "pop",
     "rain",
     "snow",
-    "wheaterIcon",
+    "weatherIcon",
   ],
 };
 </script>

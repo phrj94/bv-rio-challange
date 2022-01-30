@@ -31,7 +31,7 @@
             :pop="dayInfo.pop || 0"
             :rain="dayInfo.rain || 0"
             :snow="dayInfo.snow || 0"
-            :wheaterIcon="dayInfo.wheaterIcon"
+            :weatherIcon="dayInfo.wheaterIcon"
           />
         </div>
       </template>
