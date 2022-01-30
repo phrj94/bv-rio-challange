@@ -4,7 +4,7 @@
       <span class="day">{{ this.dayNameBr }}</span>
       <span class="temp">{{ `${Math.trunc(temp)} º` }}</span>
       <img
-        :src="wheaterIcon"
+        :src="weatherIcon"
         title="ícone representando a temperatura"
         alt="ícone representando a temperatura"
       />

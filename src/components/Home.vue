@@ -36,7 +36,7 @@ export default {
   methods: {
     handlerInput() {
       localStorage.appId = this.appId;
-      this.$router.push("/previsao");
+      this.$router.push("/forecast-weather");
     },
   },
 };
