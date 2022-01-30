@@ -8,6 +8,8 @@
 * <p>Esta AppId é necessária para realizar poder acessar a área de consulta de dados meteorológicos.</p>
 * <p>Para obter a AppId basta apenas realizar as etapas de cadastro na openweathermap.org. Depois que esse processo for realizado e sua conta estiver ativada é só executar o projeto e ser feliz. :)</p>
 
+# OBS: O script de build não está funcionando ao rodar pelo terminal bash, use powershell ou cmd ou outro terminal. :)
+
 ## Project setup
 ```
 npm install
