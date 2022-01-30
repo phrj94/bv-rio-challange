@@ -4,10 +4,11 @@
     <span>
       Esta é uma aplicação que retorna para você os dados meteorológicos de
       acordo com a cidade que você digitou. Para isto, é necessário realizar um
-      cadastro no <strong><a href="https://openweathermap.org/">OpenWeatherMap</a></strong> e criar uma appId. Após realizar o
-      cadastro e adquirir uma appId válida, você só precisa digitá-lá no campo
-      de input abaixo e começar a sua pesquisa pelas condições meteorológicas de
-      qualquer cidade do mundo! :)
+      cadastro no
+      <strong><a href="https://openweathermap.org/">OpenWeatherMap</a></strong>
+      e criar uma appId. Após realizar o cadastro e adquirir uma appId válida,
+      você só precisa digitá-lá no campo de input abaixo e começar a sua
+      pesquisa pelas condições meteorológicas de qualquer cidade do mundo! :)
     </span>
     <h4>Divirta-se!</h4>
     <div class="content">
@@ -58,8 +59,9 @@ h4,
 span {
   color: #ffffff;
 }
-a,a:link{
-    color: #ffffff;
+a,
+a:link {
+  color: #ffffff;
 }
 
 .content {

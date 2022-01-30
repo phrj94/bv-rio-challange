@@ -64,17 +64,17 @@ export default {
       showMoreInfos: false,
     };
   },
-  computed:{
-    dayNameBr(){
-      if(this.dayName.toLowerCase() ===  'today') return 'Hoje';
-      else if (this.dayName.toLowerCase() ===  'tomorrow') return 'Amanhã'
+  computed: {
+    dayNameBr() {
+      if (this.dayName.toLowerCase() === "today") return "Hoje";
+      else if (this.dayName.toLowerCase() === "tomorrow") return "Amanhã";
       else return this.dayName;
-    }
+    },
   },
   methods: {
     handlerShowMoreInfos() {
       this.showMoreInfos = !this.showMoreInfos;
-    }
+    },
   },
   props: [
     "dayName",
