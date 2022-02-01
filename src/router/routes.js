@@ -1,7 +1,7 @@
 import { createWebHistory, createRouter } from "vue-router";
-import Home from "@/components/Home.vue";
-import WeatherForecast from "@/components/WeatherForecast.vue";
-
+import Home from "../components/Home.vue";
+import WeatherForecast from "../components/WeatherForecast.vue";
+const baseURL = process.env.NODE_ENV === "production" ? "/bv-rio/" : "/";
 const routes = [
   {
     path: "/",
@@ -16,7 +16,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory(baseURL),
   routes,
 });
 
