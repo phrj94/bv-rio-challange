@@ -1,6 +1,5 @@
 <template>
   <div class="main-section">
-    <button class="exit" @click="exit">Sair</button>
     <div class="top-section">
       <div class="inputs">
         <input
@@ -56,9 +55,6 @@ export default {
       header: [],
       dayWeekInfos: [],
     };
-  },
-  beforeCreate() {
-    if (!localStorage.appId) this.$router.push("/");
   },
   async mounted() {
     try {
@@ -121,10 +117,6 @@ export default {
       else if (date.toLocaleDateString() === tomorrow.toLocaleDateString())
         return "Tomorrow";
       else return null;
-    },
-    exit() {
-      localStorage.appId = "";
-      this.$router.push("/");
     },
   },
   components: { DayInformations, Loader, Error },
