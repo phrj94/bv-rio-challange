@@ -16,30 +16,30 @@
 
 # OBS: O script de build não está funcionando ao rodar pelo terminal bash, use powershell ou cmd ou outro terminal. :)
 
-## Project setup
+## Antes de usar, instale as dependências
 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Build do projeto em modo de desenvolvimento
 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Build para produção
 
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Lints e correções em arquivos
 
 ```
 npm run lint
 ```
 
-### Customize configuration
+### Personalização
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
